@@ -5,10 +5,10 @@ def key_for_min_value(name_hash)
     lowest_value = nil
     lowest_key = nil
     
-  name_hash.collect do |item, value|
-    if lowest_value == nil || value < lowest_value
-      lowest_value = value
-      lowest_value = item
+  name_hash.collect do |x, y |
+    if lowest_value == nil || y < lowest_value
+      lowest_value = y
+      lowest_key = x
     end
   end
   lowest_key
