@@ -6,5 +6,4 @@ def key_for_min_value(name_hash)
     if value.each do |a, b| a < b
       item
  end
-end
-end
+
